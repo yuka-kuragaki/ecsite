@@ -62,7 +62,7 @@ let addCart = (event) => {
 		$(tdButton).appendTo(tr);
 		$(tr).appendTo(tbody);
 	});
-	$('.removeBtn').on('clock',removeCart);
+	$('.removeBtn').on('click',removeCart);
 };
 
 let buy = (event) => {
